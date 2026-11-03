@@ -36,7 +36,7 @@ Cada màquina virtual té dues targetes de xarxa, cadascuna amb una funció dife
 ## **1.2. Comprovació de connectivitat i actualització**
 
 Abans de tocar res d'NFS he mirat amb ip a les adreces de cada màquina (servidor 192.168.56.105, client 192.168.56.104) i he fet un ping des del client cap al servidor per assegurar-me que es veuen. Els quatre paquets han arribat sense pèrdues. També he actualitzat els paquets dels dos sistemes.
-![Adreces IP del servidor (dalt) i del client (baix), i ping des del client al servidor.![](/img/cap1.png)
+![Adreces IP del servidor (dalt) i del client (baix), i ping des del client al servidor.![][def]
 ***Captura 1\.** Adreces IP del servidor (dalt) i del client (baix), i ping des del client al servidor.*
 
 # **Fase 2: Preparació del servidor**
@@ -223,3 +223,6 @@ Després de desar el fitxer he recarregat la configuració (sudo systemctl daemo
 
 * **Repositori Git intern (per exemple GitLab CE):** per al codi, és millor que una carpeta compartida, perquè evita els conflictes quan dues persones editen el mateix fitxer alhora i guarda l'historial de canvis.
 
+
+
+[def]: /img/cap1.png
