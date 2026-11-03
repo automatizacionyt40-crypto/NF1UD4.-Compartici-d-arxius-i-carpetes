@@ -187,7 +187,7 @@ Perquè el client tingui les dues carpetes muntades cada vegada que s'engega (Zo
 
 Després de desar el fitxer he recarregat la configuració (sudo systemctl daemon-reload) i he provat les línies noves (sudo mount \-a). Per acabar de comprovar-ho he reiniciat el client i, ja de nou dins del sistema, he executat df \-h \| grep nfs. Les dues carpetes apareixen muntades soles, sense haver fet res a mà.
 
-![Sortida de df -h \| grep nfs després de reiniciar el client.]![](/img/cap10.png)
+(/img/cap10.png)
 
 ***Captura 10\.** Sortida de df \-h \| grep nfs després de reiniciar el client.*
 
